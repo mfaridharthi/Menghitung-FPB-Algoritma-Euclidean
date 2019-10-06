@@ -1,2 +1,1 @@
-# Menghitung-FPB-Algoritma-Euclidean
-#include &lt;stdio.h>   int gcd(int m, int n) {     int r;       while ((r = m % n) != 0) {         m = n;         n = r;      }        return n; }   int main() {     int m, n;       printf("Press Ctrl + C to exit.\n");     while (1) {         printf("Write m and n respectively: ");         scanf("%d %d", &amp;m, &amp;n);         printf("gcd(%d, %d) = %d\n", m, n, gcd(m, n));     } }
+Belajar Hehe
